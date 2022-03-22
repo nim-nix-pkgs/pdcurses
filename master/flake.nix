@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-pdcurses-master.flake = false;
+  inputs.src-pdcurses-master.ref   = "refs/heads/master";
   inputs.src-pdcurses-master.owner = "lcrees";
-  inputs.src-pdcurses-master.ref   = "master";
   inputs.src-pdcurses-master.repo  = "pdcurses";
   inputs.src-pdcurses-master.type  = "github";
   
