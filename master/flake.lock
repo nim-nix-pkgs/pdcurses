@@ -1,0 +1,107 @@
+{
+  "nodes": {
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647920574,
+        "narHash": "sha256-D3ob5QykELhyNcTnISOkjEzLlgXltwON8Ucrz5cpiQI=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "bfb46a1f762002f07f9d81d93dacd544c6890623",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
+        "path": "/nix/store/0yqgkbpmsk7ck4s34wk505sfdd9vils4-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "oldwinapi": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-oldwinapi-v2_1_0": "src-oldwinapi-v2_1_0"
+      },
+      "locked": {
+        "dir": "v2_1_0",
+        "lastModified": 1647934390,
+        "narHash": "sha256-00ubZoEXQOCM994GYS1wE1evc8Q8QiDLobFYnRiU8C0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "oldwinapi",
+        "rev": "f5d00b29aecb489fd0bb5438e9604ac2aaad9ec2",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v2_1_0",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "oldwinapi",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs",
+        "oldwinapi": "oldwinapi",
+        "src-pdcurses-master": "src-pdcurses-master"
+      }
+    },
+    "src-oldwinapi-v2_1_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1519951720,
+        "narHash": "sha256-rgBol8eUQ+ezIBsmdomoHzT1fxsatEoilq/WFVo8GUM=",
+        "owner": "nim-lang",
+        "repo": "oldwinapi",
+        "rev": "8b34de48ac98702708a2ee20305d327416725d1e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-lang",
+        "ref": "refs/tags/v2.1.0",
+        "repo": "oldwinapi",
+        "type": "github"
+      }
+    },
+    "src-pdcurses-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1517020525,
+        "narHash": "sha256-DbjRemkYPJZzzKm38+zrvhVta7ZelB4Ym1ots5fsZEA=",
+        "owner": "lcrees",
+        "repo": "pdcurses",
+        "rev": "8dff660ff284bb32ee81767cd4515c9f54b813af",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lcrees",
+        "ref": "refs/heads/master",
+        "repo": "pdcurses",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
