@@ -11,6 +11,7 @@
   inputs.src-pdcurses-master.ref   = "refs/heads/master";
   inputs.src-pdcurses-master.owner = "lcrees";
   inputs.src-pdcurses-master.repo  = "pdcurses";
+  inputs.src-pdcurses-master.dir   = "";
   inputs.src-pdcurses-master.type  = "github";
   
   inputs."oldwinapi".owner = "nim-nix-pkgs";
