@@ -35,20 +35,22 @@
     "oldwinapi": {
       "inputs": {
         "flakeNimbleLib": [
+          "pdcurses-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "pdcurses-master",
           "nixpkgs"
         ],
         "src-oldwinapi-v2_1_0": "src-oldwinapi-v2_1_0"
       },
       "locked": {
         "dir": "v2_1_0",
-        "lastModified": 1651918263,
-        "narHash": "sha256-z40CekG0UUe4cjP3tq/CiBgiNS99hySBLw6l0HdObG0=",
+        "lastModified": 1651555846,
+        "narHash": "sha256-aXvep4gLLVvhWHMd7VXe+R3C8HIH3cUhqiKY2XhGQ6U=",
         "owner": "nim-nix-pkgs",
         "repo": "oldwinapi",
-        "rev": "2324846f63703f8c097cbcdd6bf560393af02adb",
+        "rev": "88f49d6c8c02eac06a9b60adc5359847db79f66e",
         "type": "github"
       },
       "original": {
@@ -59,12 +61,39 @@
         "type": "github"
       }
     },
+    "pdcurses-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "oldwinapi": "oldwinapi",
+        "src-pdcurses-master": "src-pdcurses-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651556812,
+        "narHash": "sha256-O00iGSsEjKPMBxl+3N89fXUUa+ucWJNSP6nSScvpm/k=",
+        "owner": "nim-nix-pkgs",
+        "repo": "pdcurses",
+        "rev": "d60b7fd0c87d6d1341e882c2166cb70d7b260fe9",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "pdcurses",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "oldwinapi": "oldwinapi",
-        "src-pdcurses-master": "src-pdcurses-master"
+        "pdcurses-master": "pdcurses-master"
       }
     },
     "src-oldwinapi-v2_1_0": {
