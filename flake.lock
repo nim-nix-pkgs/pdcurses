@@ -47,11 +47,11 @@
       },
       "locked": {
         "dir": "v2_1_0",
-        "lastModified": 1653702205,
-        "narHash": "sha256-HW3uYSVBq6unhwQ5RsNEgInf64CoQ1Qxh1yIPw4KptM=",
+        "lastModified": 1656301129,
+        "narHash": "sha256-SdNz7dtooXD2n89IGeUhQgL9P1omiRAl/FTcPbma7dc=",
         "owner": "nim-nix-pkgs",
         "repo": "oldwinapi",
-        "rev": "0578cac7a52d7d323792e40b90aea71bf7004524",
+        "rev": "167f98b96f5b88e43bdf0cec4c1824bbc689b621",
         "type": "github"
       },
       "original": {
@@ -75,11 +75,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1653702982,
-        "narHash": "sha256-EzVGb7/vGAAZUVxBc6xu834funKlhmN8p5HK0Av0uaM=",
+        "lastModified": 1656301852,
+        "narHash": "sha256-GuTP45Q0aA4n7tojUL4+Q5VQ5pCAHGn+ccpqc3iMPu4=",
         "owner": "nim-nix-pkgs",
         "repo": "pdcurses",
-        "rev": "e6e3610a1b9795b8d0dfaaf00293d395a56d2d8c",
+        "rev": "5fa7cc229fc62f4e21a467c048c39bd53f9e72d4",
         "type": "github"
       },
       "original": {
