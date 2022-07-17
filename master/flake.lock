@@ -45,11 +45,11 @@
       },
       "locked": {
         "dir": "v2_1_0",
-        "lastModified": 1658018147,
-        "narHash": "sha256-fotz7cZ+g6aMx23+0FaerHQP2NrgoIvp8CSPaq5MxMc=",
+        "lastModified": 1658032096,
+        "narHash": "sha256-kBeCslXaJQsawuCewbhr8AxwfvxIPk34jyit59Bfv38=",
         "owner": "nim-nix-pkgs",
         "repo": "oldwinapi",
-        "rev": "15243c9088586240fd8e68d450bcf31d8871ed35",
+        "rev": "37f5e28be5e1a2e70eb1b6b499e325c317b64895",
         "type": "github"
       },
       "original": {
